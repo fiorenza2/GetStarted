@@ -65,7 +65,7 @@ Use [Fira Code](https://github.com/tonsky/FiraCode), or for NerdFonts, [Fura Cod
 ## IDE
 
 Seems that PyCharm Professional offers it all:
-* [Remote Debugging](https://www.jetbrains.com/help/pycharm/remote-debugging-with-product.html)
+* [Remote Debugging](https://www.jetbrains.com/help/pycharm/remote-debugging-with-product.html) NB: If the variables are too large (i.e., large batches of image arrays), this will hang!
 * [Remote Interpreter (via SSH)](https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html)
 
 Configure with [Monokai](https://github.com/spasserby/PyCharm-monokai) for a e s t h e t i c s
