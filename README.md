@@ -2,17 +2,61 @@
 
 This is a list for my own use to figure out how to set things up when I use a new computer, because knowing me I'll forget most of the cool stuff I've picked up along the way
 
-## Bash
-
-Use aliases:
-
-```bash
-alias sublime="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe ."
-```
-
 ## Fish
 
 This seems a solid shell choice, although is not POSIX compliant. However out of the box, it just 'works'. Here's a [neat guide](https://github.com/jorgebucaran/fish-shell-cookbook).
+
+Use this [theme](https://github.com/oh-my-fish/theme-bobthefish).
+
+Since it's not POSIX, here's some common things which are different:
+
+<table>
+<tr>
+<th>
+Action
+</th>
+<th>
+Commands
+</th>
+</tr>
+
+<tr>
+
+<td style="border-top: solid;">
+Exports
+</td>
+
+<td style="border-top: solid;">
+<pre>
+set -gx PATH /home/fiorenza2/anaconda3/bin $PATH
+set -x KUBECONFIG /mnt/c/kubeconfig.json
+</pre>
+</td>
+
+</tr>
+<tr>
+<td>
+Alias
+</td>
+<td>
+<pre>
+alias rmi="rm -i"
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+Functions
+</td>
+<td>
+<pre>
+function rmi
+    rm -i $argv
+end
+</pre>
+</td>
+</tr>
+</table>
 
 ## Python
 
