@@ -2,6 +2,18 @@
 
 This is a list for my own use to figure out how to set things up when I use a new computer, because knowing me I'll forget most of the cool stuff I've picked up along the way
 
+## Bash
+
+Use aliases:
+
+```bash
+alias sublime="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe ."
+```
+
+## Fish
+
+This seems a solid shell choice, although is not POSIX compliant. However out of the box, it just 'works'. Here's a [neat guide](https://github.com/jorgebucaran/fish-shell-cookbook).
+
 ## Python
 
 Anaconda as always
@@ -11,23 +23,6 @@ Make a new environment
 conda env -n ENVNAME -python=3.6
 ```
 
-## WSL
-
-Use [WSLtty](https://github.com/mintty/wsltty)
-
-This doesn't support stuff like tabbing, but has other neat features like powerline fonts and is themeable. It's also really lightweight and is apparently more customisable.
-
-[This](https://dev.to/winebaths/getting-up-and-running-with-the-windows-subsystem-for-linux-8oc) is a general handy guide.
-
-NB: Enable 'Ctrl+Shift+' Commands in the preference to make copy and pasting from the clipboard a lot less painful
-
-## Bash
-
-Use aliases:
-
-```bash
-alias sublime="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe ."
-```
 
 ## vim
 
@@ -58,6 +53,8 @@ We ought to customise this, as demonstrated [here](https://www.hamvocke.com/blog
 
 See the configs folder for the `.tmux.conf file`
 
+We can automate tmux by using a session manager, such as [this one](https://github.com/tmux-python/tmuxp) written in Python.
+
 ## Font
 
 Use [Fira Code](https://github.com/tonsky/FiraCode), or for NerdFonts, [Fura Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
@@ -68,8 +65,19 @@ Seems that PyCharm Professional offers it all:
 * [Remote Debugging](https://www.jetbrains.com/help/pycharm/remote-debugging-with-product.html)
     * NB: If the variables are too large (i.e., large batches of image arrays), this will hang!
 * [Remote Interpreter (via SSH)](https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html)
+* [WSL Support to run Ubuntu Python Environments](https://www.jetbrains.com/help/pycharm/2018.3/using-wsl-as-a-remote-interpreter.html)
 
 Configure with [Monokai](https://github.com/spasserby/PyCharm-monokai) for a e s t h e t i c s
+
+## WSL
+
+Use [WSLtty](https://github.com/mintty/wsltty)
+
+This doesn't support stuff like tabbing, but has other neat features like powerline fonts and is themeable. It's also really lightweight and is apparently more customisable.
+
+[This](https://dev.to/winebaths/getting-up-and-running-with-the-windows-subsystem-for-linux-8oc) is a general handy guide.
+
+NB: Enable 'Ctrl+Shift+' Commands in the preference to make copy and pasting from the clipboard a lot less painful
 
 ## Configs and DotFiles
 
