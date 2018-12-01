@@ -90,7 +90,15 @@ Some neat shortcuts:
 More help is [here](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/)
 
 ## Markdown
-This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) covers the basics really well
+This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) covers the basics really well.
+
+### MathJax
+
+Note that when we are doing LaTeX equations in MathJax, always surround the ``\begin{equation} ... \end{equation}`` code with dollar signs like so:
+
+``$$\begin{equation} ... \end{equation}$$``
+
+If we dont' do this it won't render properly (well, it can, but then you need loads of escape characters to tell the file that it should render those in TeX).
 
 ## tmux
 We ought to customise this, as demonstrated [here](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
