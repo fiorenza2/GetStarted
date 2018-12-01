@@ -99,9 +99,29 @@ See the configs folder for the `.tmux.conf file`
 
 We can automate tmux by using a session manager, such as [this one](https://github.com/tmux-python/tmuxp) written in Python.
 
+Updating tmux is a bit of a faff, but [this guide](http://witkowskibartosz.com/blog/update-your-tmux-to-latest-version.html) walks us through it well enough.
+
+## Docker
+
+Here's a useful [cheatsheet](https://medium.com/statuscode/dockercheatsheet-9730ce03630d).
+
+[NVidia Dockers](https://devblogs.nvidia.com/gpu-containers-runtime/):
+* Install CUDA drivers on the host
+* Install CUDA Library on the image
+
+[Interactive Shell with Compose](https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose)
+
+Mounting host directories [on the image](https://docs.docker.com/compose/compose-file/#volumes)
+
 ## Font
 
 Use [Fira Code](https://github.com/tonsky/FiraCode), or for NerdFonts, [Fura Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+
+## Mac Specifics
+
+We ought to use [iTerm](https://www.iterm2.com/).
+
+Remember to enable ``Esc+`` option for the left ⌥ key in ``Profiles > Keys``. This means we can use the ⌥ key like the Alt modifier.
 
 ## IDE
 
