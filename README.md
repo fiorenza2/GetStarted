@@ -98,7 +98,7 @@ Note that when we are doing LaTeX equations in MathJax, always surround the ``\b
 
 ``$$\begin{equation} ... \end{equation}$$``
 
-If we dont' do this it won't render properly (well, it can, but then you need loads of escape characters to tell the file that it should render those in TeX).
+If we don't do this it won't render properly (well, it can, but then you need loads of escape characters to tell the file that it should render those in TeX).
 
 ## tmux
 We ought to customise this, as demonstrated [here](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
