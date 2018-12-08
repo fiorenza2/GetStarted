@@ -89,6 +89,8 @@ Some neat shortcuts:
 
 More help is [here](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/)
 
+We can also utilise plug-ins, which interact with the `~/.vimrc` as [follows](https://github.com/junegunn/vim-plug).
+
 ## Markdown
 This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) covers the basics really well.
 
@@ -121,9 +123,18 @@ Here's a useful [cheatsheet](https://medium.com/statuscode/dockercheatsheet-9730
 
 Mounting host directories [on the image](https://docs.docker.com/compose/compose-file/#volumes)
 
-## Font
+## Font and Colours
 
 Use [Fira Code](https://github.com/tonsky/FiraCode), or for NerdFonts, [Fura Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+
+I'm currently a BIG fan of [Gruvbox](https://github.com/morhetz/gruvbox). This is supported in:
+* Fish (through BobTheFish (need to set background in terminal to 40 40 40))
+* [Vim](https://github.com/morhetz/gruvbox)
+* [PyCharm](https://github.com/caleb/gruvbox-idea) (done through adding the `GruvboxDark.icls` file to the `.Pycharm{VERSION}/config/colors/` directory.
+
+## Generic Terminal Advice
+
+Note that to get pretty colours, you need to pick a terminal that supports 256 colours. Furthermore, this setting isn't default on most terminals, so you'll need to enable this!
 
 ## Mac Specifics
 
